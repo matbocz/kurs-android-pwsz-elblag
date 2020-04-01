@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/imieEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Imie" />
+
+    <EditText
+        android:id="@+id/nazwiskoEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nazwisko" />
+
+    <EditText
+        android:id="@+id/wiekEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Wiek"
+        android:inputType="number" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/kobietaRadioButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="wyborPlci"
+            android:text="Kobieta" />
+
+        <RadioButton
+            android:id="@+id/mezczyznaRadioButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="wyborPlci"
+            android:text="Mężczyzna" />
+    </RadioGroup>
+
+    <CheckBox
+        android:id="@+id/zgodaCheckBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Wyrażam zgodę na przetwarzanie danych osobowych" />
+
+    <Button
+        android:id="@+id/wyslijButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Wyślij" />
+
+</LinearLayout>
