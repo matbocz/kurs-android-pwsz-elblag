@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">RozmieszczanieKomponentow2</string>
+    <string-array name="spinner_list">
+        <item>Czarny</item>
+        <item>Biały</item>
+        <item>Źółty</item>
+        <item>Zielony</item>
+        <item>Niebieski</item>
+        <item>Pomarańczowy</item>
+        <item>Czerwony</item>
+    </string-array>
+</resources>

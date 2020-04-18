@@ -1,0 +1,2 @@
+rootProject.name='RozmieszczanieKomponentow2'
+include ':app'
