@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/adresEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="adres"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/trescEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="tresc"
+        android:inputType="textMultiLine" />
+
+    <Button
+        android:id="@+id/wyslijButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Wyślij" />
+</LinearLayout>
