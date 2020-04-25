@@ -86,9 +86,9 @@ public class MainActivity extends AppCompatActivity {
                 LocalDate leftDate = LocalDate.of(leftYear, leftMonth, leftDay);
                 LocalDate rightDate = LocalDate.of(rightYear, rightMonth, rightDay);
 
-                long daysBetween = ChronoUnit.DAYS.between(rightDate, leftDate);
-                long monthsBetween = ChronoUnit.MONTHS.between(rightDate, leftDate);
-                long yearsBetween = ChronoUnit.YEARS.between(rightDate, leftDate);
+                long daysBetween = ChronoUnit.DAYS.between(leftDate, rightDate);
+                long monthsBetween = ChronoUnit.MONTHS.between(leftDate, rightDate);
+                long yearsBetween = ChronoUnit.YEARS.between(leftDate, rightDate);
 
                 if (daysBetween < 0 || monthsBetween < 0 || yearsBetween < 0) {
                     resultTextView.setText("Prawa data jest wcześniejsza od lewej. Zmień daty!" + "\n\nRóżnica lat = " + 0 + "\nRóżnica miesięcy = " + 0 + "\nRóżnica dni = " + 0);
@@ -127,9 +127,9 @@ public class MainActivity extends AppCompatActivity {
                 LocalDate leftDate = LocalDate.of(leftYear, leftMonth, leftDay);
                 LocalDate rightDate = LocalDate.of(rightYear, rightMonth, rightDay);
 
-                long daysBetween = ChronoUnit.DAYS.between(rightDate, leftDate);
-                long monthsBetween = ChronoUnit.MONTHS.between(rightDate, leftDate);
-                long yearsBetween = ChronoUnit.YEARS.between(rightDate, leftDate);
+                long daysBetween = ChronoUnit.DAYS.between(leftDate, rightDate);
+                long monthsBetween = ChronoUnit.MONTHS.between(leftDate, rightDate);
+                long yearsBetween = ChronoUnit.YEARS.between(leftDate, rightDate);
 
                 if (daysBetween < 0 || monthsBetween < 0 || yearsBetween < 0) {
                     resultTextView.setText("Prawa data jest wcześniejsza od lewej. Zmień daty!" + "\n\nRóżnica lat = " + 0 + "\nRóżnica miesięcy = " + 0 + "\nRóżnica dni = " + 0);
