@@ -1,0 +1,2 @@
+rootProject.name='Listy4'
+include ':app'
