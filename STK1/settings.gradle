@@ -1,0 +1,2 @@
+rootProject.name='STK1'
+include ':app'
